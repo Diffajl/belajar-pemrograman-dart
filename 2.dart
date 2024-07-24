@@ -1,14 +1,16 @@
 void main() {
-  // number and variable
-  int x = 10;
-  int y = 5;
+  int a = 5;
+  double b = 2.5;
+  String nama = 'dadang supriadi baharudin';
+  var firstName = 'mang';
+  var lastName = 'yana';
   const double pi = 3.1415;
-  print(x);
-  print(y);
-  print(pi);
+  final double euler = 2.71;
   
-  num z = 2.5;
-  print(z);
-  z = 5.5;
-  print(z);
+  print('nilai a adalah $a');
+  print('nilai b adalah $b');
+  print('nama saya adalah $nama');
+  print('nama depan saya $firstName nama belakang saya $lastName');
+  print('nilai pi = $pi');
+  print('nilai euler = $euler');
 }
